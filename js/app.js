@@ -79,7 +79,6 @@ function main() {
 	rock_div.addEventListener('click', () => {
 		const compChoice = getComputerChoice();
 		setTimeout(() => {
-			//Here is where we call compare hands
 			game('r', compChoice);
 			//Update Images
 			playerHand.src = `./img/Rock.png`;
@@ -93,7 +92,6 @@ function main() {
 	paper_div.addEventListener('click', () => {
 		const compChoice = getComputerChoice();
 		setTimeout(() => {
-			//Here is where we call compare hands
 			game('p', compChoice);
 			//Update Images
 			playerHand.src = `./img/Paper.png`;
@@ -107,7 +105,6 @@ function main() {
 	scissor_div.addEventListener('click', () => {
 		const compChoice = getComputerChoice();
 		setTimeout(() => {
-			//Here is where we call compare hands
 			game('s', compChoice);
 			//Update Images
 			playerHand.src = `./img/Scissors.png`;

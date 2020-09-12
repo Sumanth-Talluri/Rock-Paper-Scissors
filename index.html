@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="intro">
+        <div class="jumbotron card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+            <div class="text-white text-center py-5 px-4">
+                <div>
+                    <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Rock Paper Scissors</strong></h2>
+                    <!-- <button class="btn btn-outline-white"><a href="#match-div">Let's Play</a></button> -->
+                    <a href="#match-div" class="btn btn-outline-white">Let's Play</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="match" id="match-div">
+        <div class="jumbotron jumbotron-fluid" style="background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);">
+
+            <div class="score">
+                <div class="player-score">
+                    <h2>Player</h2>
+                    <p id="user-score">0</p>
+                </div>
+                <div class="computer-score">
+                    <h2>Computer</h2>
+                    <p id="comp-score">0</p>
+                </div>
+            </div>
+    
+            <div class="result">
+                <p>Let's see who wins this!</p>
+            </div>
+    
+            <div class="hands">
+                <div>
+                    <img class="player-hand" src="/img/Rock.png" alt="">
+                    <p class="u">You</p>
+                </div>
+                <div>
+                    <img class="computer-hand" src="/img/Rock.png" alt="">
+                    <p class="u">Computer</p>
+                </div>
+            </div>
+    
+            <p class="action-message">Make your Move</p>
+    
+            <div class="choices">
+                <div class="choice" id="r">
+                    <img src="img/option-rock.png" alt="rock">
+                </div>
+                <div class="choice" id="p">
+                    <img src="img/option-paper.png" alt="paper">
+                </div>
+                <div class="choice" id='s'>
+                    <img src="img/option-scissors.png" alt="scissors">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <p class="footer">Developed with &nbsp; <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; by SUMANTH</p> 
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
